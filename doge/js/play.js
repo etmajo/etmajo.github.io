@@ -55,7 +55,7 @@ dodge.play.prototype = {
   
   handleCollision: function() {
     console.log("U lost");
-    game.state.start('Play')
+    game.state.start('play')
   }
   
 };
