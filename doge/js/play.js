@@ -56,5 +56,5 @@ dodge.Play.prototype = {
     console.log("U lost");
     game.state.start('Play')
   }
-  };
+  }
 };
