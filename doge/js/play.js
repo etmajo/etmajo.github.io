@@ -4,9 +4,9 @@
 
 var dodge = {};
 
-dodge.play = function () {};
+dodge.Play = function () {};
 
-dodge.play.prototype = {
+dodge.Play.prototype = {
 
   inti: function () {
     console.log("%c~~~ Booting Dodge ~~~/n Compliments of SkilStak", " color:#fdfe3; background:#073642");
@@ -55,7 +55,7 @@ dodge.play.prototype = {
   
   handleCollision: function() {
     console.log("U lost");
-    game.state.start('play')
+    game.state.start('Play')
   }
   
 };
