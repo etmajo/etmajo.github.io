@@ -34,7 +34,7 @@ dodge.Play.prototype = {
     this.dodging.anchor.set(0.5,0.5);
 
     this.cursors = game.input.keyboard.createCursorKeys();
-  }
+  },
 
   update: function () {
     
@@ -56,6 +56,6 @@ dodge.Play.prototype = {
   handleCollision: function() {
     console.log("U lost");
     game.state.start('Play')
-  },
   }
+  
 };
