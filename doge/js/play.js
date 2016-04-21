@@ -37,6 +37,7 @@ dodge.Play.prototype = {
   }
 
   update: function () {
+    
     if (this.cursor.left.isDown) {
       this.dodger.body.velocity.x = -800;
     }
@@ -55,6 +56,6 @@ dodge.Play.prototype = {
   handleCollision: function() {
     console.log("U lost");
     game.state.start('Play')
-  }
+  },
   }
 };
