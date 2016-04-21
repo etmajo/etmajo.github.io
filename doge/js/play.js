@@ -4,9 +4,9 @@
 
 var dodge = {};
 
-dodge.Play = function () {};
+dodge.play = function () {};
 
-dodge.Play.prototype = {
+dodge.play.prototype = {
 
   inti: function () {
     console.log("%c~~~ Booting Dodge ~~~/n Compliments of SkilStak", " color:#fdfe3; background:#073642");
