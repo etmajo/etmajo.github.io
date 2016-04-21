@@ -14,9 +14,9 @@ dodge.Play.prototype = {
   },
 
   preload: function () {
-    this.load.image('background','assets/space.png');
-    this.load.spritesheet('dodger','assets/ship.png',46,64,2);
-    this.load.spritesheet('dodging','assets/',46,64,2)
+    this.load.image('background','assets/background.png.png');
+    this.load.spritesheet('dodger','assets/dodger.png',46,64,2);
+    this.load.spritesheet('dodging','assets/dodging',46,64,2)
   },
 
   create: function () {
