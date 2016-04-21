@@ -58,4 +58,3 @@ dodge.Play.prototype = {
     game.state.start('Play')
   }
   };
-};
