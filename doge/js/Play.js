@@ -1,4 +1,4 @@
-//State dodge.play
+//State doge.Play
 
 'use strict'
 
