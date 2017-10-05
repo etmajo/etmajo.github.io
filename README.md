@@ -1,1 +1,1 @@
-# etmajo.github.io
+# etmajo.com
