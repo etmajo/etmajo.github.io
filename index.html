@@ -14,6 +14,15 @@
 </style>
 </header>
 <body>
+     <div id="twitch-embed"> </div>
+     <script src=https://embed.twitch.tv/embed/v1.js></script>
+     <script type="text/javascript">
+          new Twitch.Embed("twitch-embed", {
+          channel: 'etmajo'
+          });
+          embed.addEventListener(Twitch.Embed.AUTHENTICATE, function(user) {
+               console.log(user.login + ' just logged in');
+          });
      <p>
      <image src="image.png">
           </p>
